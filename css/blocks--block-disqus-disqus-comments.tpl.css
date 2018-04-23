@@ -1,0 +1,8 @@
+
+.block-disqus {
+		border: 1px solid #DDD;
+		border-radius: .25em;
+		box-shadow: 0em .125em .25em 0em #DDD inset;
+		margin-top: 2em;
+		padding: .5em;
+}

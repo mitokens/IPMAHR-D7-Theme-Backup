@@ -1,0 +1,86 @@
+#block-block-38 {
+	text-align: center;
+}
+
+#block-block-38 form {
+	background: #ffe0e0;
+	border: 2px solid #f99;
+	border-radius: .25em;
+	display: inline-block;
+	padding: 1em;
+	margin: .5em auto;
+	text-align: left;
+}
+
+#block-block-38 input[name="submit"] {
+	vertical-align: baseline;
+}
+
+#block-system-main .field {
+	clear: both;
+	padding-top: 0.5em;
+}
+
+#block-system-main .field-label {
+	color: #a86d00;
+}
+
+#block-system-main .field-label-above {
+	margin: 1em 0;
+}
+
+#block-system-main .field-label-above .field-items {
+	background: #fff1d6;
+	border: 1px solid #f9d490;
+	border-radius: 0.25em;
+	padding: 0.75em;
+}
+
+#block-system-main .field-label-above .field-label {
+	font-size: 1.25em;
+}
+
+#block-system-main .field-name-field-jobagency,
+#block-system-main .field-name-field-jobappear,
+#block-system-main .field-name-field-jobemail,
+#block-system-main .field-name-field-jobname,
+#block-system-main .field-name-field-jobphone,
+#block-system-main .field-name-field-paypal-id,
+#block-system-main .submitted {
+	opacity: 0.5;
+}
+
+
+@media (min-width:360px) {
+	
+	#block-system-main .field-label-inline .field-label {
+		text-align: right;
+		width: 50%;
+	}
+	
+}
+
+
+@media (min-width:512px) {
+	
+	#block-system-main .field-label-above .field-items {
+		margin: 0 10%;
+	}
+
+	#block-system-main .field-label-above .field-label {
+		margin: 0 10%;
+	}
+
+	#block-system-main .field-label-inline .field-items {
+		float: left;
+		max-width: 50%;
+	}
+
+	#block-system-main .field-label-inline .field-label {
+		float: left;
+		padding-right: 2%;
+		text-align: right;
+		width: 45%;
+	}
+	
+}

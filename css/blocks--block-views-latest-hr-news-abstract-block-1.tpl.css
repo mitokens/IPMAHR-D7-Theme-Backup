@@ -1,0 +1,50 @@
+
+#block-views-latest-hr-news-abstract-block-1 b {
+	overflow: hidden;
+	width: 100%;
+		max-width: 12rem;
+}
+
+#block-views-latest-hr-news-abstract-block-1 b a {
+	display: inline;
+}
+
+#block-views-latest-hr-news-abstract-block-1 b img {
+	margin-top: 0.25rem;
+}
+
+#block-views-latest-hr-news-abstract-block-1 .views-field-body > hr:only-child {
+	display: none;
+}
+
+
+@media (max-width:767) {
+	
+	#block-views-latest-hr-news-abstract-block-1 {
+		display: inline-block;
+		float: left;
+	}
+	
+	.region-sidebar-first > .block:not(#block-views-latest-hr-news-abstract-block-1) {
+		display: inline-block;
+		float: left;
+	}
+	
+	#block-views-latest-hr-news-abstract-block-1 b {
+		max-width: 12rem;
+	}
+	
+}
+
+
+@media (min-width:512px) AND (max-width:767px) {
+	
+	#block-views-latest-hr-news-abstract-block-1 .views-fieldset,
+	#block-views-latest-hr-news-abstract-block-1 .views-field-body {
+		display: inline-block;
+		margin-right: 2%;
+		max-width: 50%;
+		float: left;
+	}
+	
+}

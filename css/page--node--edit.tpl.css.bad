@@ -1,0 +1,183 @@
+
+/* the main node edit form */
+
+form.node-form {
+	text-align: center;
+}
+
+form.node-form > div,
+#main .block-block {
+	background: #fff;
+	margin: 0px auto;
+	padding: 0em 2em;
+	/*max-width: 800px;*/
+}
+
+form.node-form > div > div {
+	margin-bottom: 2em;
+	text-align: left;
+}
+
+/* formatting tips under WYSIWYG textareas */
+
+.field-widget-text-textarea fieldset {
+	background: #CFD1CF;
+	background: linear-gradient(top,#CFD1CF,#EBEBEB);
+	background: #EEF;
+	border-bottom-left-radius: .333em;
+	border-bottom-right-radius: .333em;
+	border: 1px solid #BFBFBF;
+	border-top-width: 0em;
+	padding: .5em;
+}
+
+.field-widget-text-textarea a.ckeditor_links {
+	height: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 0px;
+}
+
+.field-widget-text-textarea fieldset div,
+.field-widget-text-textarea fieldset p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* vertical tabs at the bottom of the from */
+
+.vertical-tabs,
+.vertical-tabs .vertical-tab-button.selected a {
+	background: #DDD !important;
+}
+
+.vertical-tabs .vertical-tab-button:not(.selected) {
+	background: #EEE;
+	border-right: 1px solid #ccc;
+}
+
+
+form.node-form .form-item .description {
+	font-size: .8em;
+	opacity: .75;
+	margin: 0em 1em;
+}
+
+form.node-form .form-item-title,
+form.node-form .form-wrapper > .form-item,
+form.node-form .form-wrapper > div > .form-item {
+	background: #EEF;
+	margin: 0em;
+	padding: .75em 1em;
+	text-align: right;
+}
+
+form.node-form .form-item-title > *,
+form.node-form .form-wrapper > .form-item > *,
+form.node-form .form-wrapper > div > .form-item > * {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+.node-form.ds-2col-stacked .group-left {
+	width: 45%;
+}
+
+.node-form.ds-2col-stacked .group-left > * {
+	margin-right: 1em;
+}
+
+.node-form.ds-2col-stacked .group-right {
+	width: 55%;
+}
+
+.node-form.ds-2col-stacked .group-right > * {
+	margin-left: 1em;
+}
+
+@media (max-width:640px) {
+	.node-form.ds-2col-stacked .group-left,
+	.node-form.ds-2col-stacked .group-right {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* OTHER STUFF */
+
+.draggable .file-widget .form-type-textfield {
+	padding-left: 2em !important;
+}
+
+.field-type-text-textarea,
+.field-type-text-with-summary {
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+
+.file-widget .file-size {
+	display: none
+}
+
+.file-widget .form-item label {
+	background: #EEE;
+	border: 1px solid #ccc;
+	border-right: 0px;
+	border-top-color: #999;
+	display: inline-block;
+	margin: 0em;
+	margin-right: -.3em;
+	padding: 0em .5em;
+}
+
+.file-widget .form-item .description {
+	display: none;
+}
+
+.file-widget .form-item .form-text {
+	max-width: 32em;
+}
+
+
+.field-widget-link-field .link-field-column {
+	display: block;
+	float: none !important;
+	margin: .5em;
+}
+
+.field-widget-link-field .link-field-column .description {
+	display: none;
+}
+
+.field-widget-link-field .link-field-column label {
+	background: #EEE;
+	border: 1px solid #ccc;
+	border-right: 0px;
+	border-top-color: #999;
+	display: inline-block;
+	margin: 0em;
+	margin-right: -.3em;
+	padding: 0em .5em;
+	max-width: 3em;
+}
+
+.field-widget-link-field .link-field-column input {
+	max-width: 48em;
+}
+
+.field-widget-link-field .field-multiple-table + .clearfix {
+	background: #ebf7ff;
+	border: 1px solid #E0E0DE;
+	border-top: 0px;
+	padding: .5em 0em 0em 4em;
+}

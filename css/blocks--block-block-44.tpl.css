@@ -1,0 +1,11 @@
+
+#block-block-44 {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+#block-block-44 img {
+	border-radius: .125em;
+	box-shadow: .125em .125em .5em .125em #DDD /*inset*/;
+}

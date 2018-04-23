@@ -1,0 +1,63 @@
+
+.node-roster {
+	position: relative;
+}
+
+.node-roster .field-name-field-documents .field-item {
+	padding-bottom: 1em;
+}
+
+.node-roster .field-name-field-photos .field-item {
+	border-radius: 12.5%;
+	display: inline-block;
+	margin: 0.25em;
+	overflow: hidden;
+}
+
+.node-roster > .content > .field-label-hidden {
+	padding: 1em;
+}
+
+.node-roster .more-content > .field-label-above {
+	border-top: 1px solid #ecdec6;
+}
+
+.node-roster .more-content > .field-label-above p,
+.node-roster .more-content > .field-label-above .field {
+	margin: 0;
+}
+
+.node-roster .more-content > .field-label-above > .field-items {
+	padding: 1em;
+}
+
+.node-roster .more-content > .field-label-above .field-label {
+	border: 0 solid #faca7d;
+	border-bottom-width: 2px;
+	display: table;
+	font-family: "Source Serif Pro", serif;
+	font-size: 1.625rem;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0.125em;
+}
+
+.node-roster .more-content > .field-label-above + .field-label-above {
+	border-left: 1px solid #bf9340;
+	margin-right: -1px;
+}
+
+
+@media (min-width:512px) {
+	
+	.node-roster .more-content > .field-label-above:not(:only-child) {
+		clear: none;
+		display: inline-block;
+		float: left;
+		margin: 0;
+		padding: 1em 1%;
+		vertical-align: top;
+		width: 48%;
+	}
+	
+}

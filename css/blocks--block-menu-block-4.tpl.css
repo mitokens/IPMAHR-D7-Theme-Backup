@@ -1,0 +1,24 @@
+
+#main-menu #block-menu-block-4 {
+	font-size: 0.75rem;
+}
+
+#main-menu #block-menu-block-4 .menu.nav .leaf a.active {
+	background: #FB0;
+	background: hsla(44, 75%, 50%, 1);
+	box-shadow: 0 0.125em 0.25em 0 hsla(0,0%,0%,0.5) inset;
+	color: #222;
+	text-shadow: 1px 0.125em 0.25em hsla(0, 0%, 0%, 0.25);
+}
+
+#main-menu #block-menu-block-4 .menu.nav a {
+	margin-bottom: 0.25rem;
+	margin-top: 0.25rem;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+
+#main-menu #block-menu-block-4 .menu.nav li {
+	margin-bottom: 0;
+	margin-top: 0;
+}

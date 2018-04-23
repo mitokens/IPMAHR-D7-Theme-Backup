@@ -1,0 +1,29 @@
+
+#block-menu-block-1 a.active-trail.active:before {
+/* 	content: "\002192  "; */
+}
+
+#block-menu-block-1 a.active-trail.active:after {
+/* 	content: "  \002190"; */
+}
+
+#block-menu-block-1 a.active-trail.active {
+	background-size: auto 2px;
+	cursor: default;
+	color: inherit;
+	font-weight: bold;
+}
+
+#block-menu-block-1 li.expanded:not(.active-trail) ul {
+	display: none;
+}
+
+#block-menu-block-1 > h2 {
+	text-align: center;
+}
+
+#block-menu-block-1 > h2 > a:before {
+	content: '\002666\000020';
+	content: '\002662\000020';
+	content: '\0025C8\000020';
+}

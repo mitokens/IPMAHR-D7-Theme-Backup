@@ -1,0 +1,20 @@
+
+#block-views-ad-image-block,
+#block-views-image-block{
+	background: none;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+}
+
+#block-views-ad-image-block .node,
+#block-views-image-block .node {
+	display: inline-block;
+	margin: 1em;
+	padding: 0;
+}
+
+#block-views-ad-image-block .node img,
+#block-views-image-block .node img {
+	box-shadow: 0.125em 0.125em 0.5em 0.125em #DDD /*inset*/;
+}

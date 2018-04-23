@@ -1,0 +1,10 @@
+
+#block-views-user-content-block h2 {
+	display: block;
+	text-align: center;
+}
+
+#block-views-user-content-block .view-content ul {
+	display: inline-block;
+	text-align: left;
+}

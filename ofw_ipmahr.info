@@ -1,0 +1,19 @@
+name = IPMAHR OpenFramework
+base theme = open_framework
+description = Tableless, multi-column subtheme of the <a href="http://openframework.stanford.edu">Open Framework theme</a>.
+core = 7.x
+
+stylesheets[all][] = css/style.css
+scripts[] = js/script.js
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[search_box] = Search Box
+regions[main_top] = Main: Top
+regions[sidebar_first] = First sidebar
+regions[content_top] = Content: Top
+regions[content] = Content: Body
+regions[content_bottom] = Content: Bottom
+regions[sidebar_second] = Second sidebar
+regions[main_bottom] = Main: Bottom
+regions[footer] = Footer

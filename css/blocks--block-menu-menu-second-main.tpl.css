@@ -1,0 +1,23 @@
+
+#block-menu-menu-second-main .menu.nav {
+	background: #CCC;
+	border-radius: 1em;
+	border-top-left-radius: 0.25em;
+	border-top-right-radius: 0.25em;
+	color: #222;
+}
+
+#block-menu-menu-second-main .menu.nav > li {
+	line-height: 1;
+	margin: 0;
+}
+
+#block-menu-menu-second-main .menu.nav > li > a:not(.active-trail),
+#block-menu-menu-second-main .menu.nav .dropdown-menu a:not(:hover):not(:active):not(:focus) {
+	color: #222;
+	text-shadow: 1px 0.125em 0.25em hsla(0, 0%, 0%, 0.25);
+}
+
+#block-menu-menu-second-main .menu.nav .dropdown-menu {
+	background: #ccc;
+}

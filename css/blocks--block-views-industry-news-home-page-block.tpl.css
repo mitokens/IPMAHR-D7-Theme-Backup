@@ -1,0 +1,26 @@
+
+#block-views-industry-news-home-page-block {
+	background: #EEEEEE;
+	border-radius: 0em;
+	box-shadow: 0.1em 0.1em 0.5em 0.2em #DDDDDD;
+	margin: auto;
+	max-width: 682px;
+	overflow: hidden;
+}
+
+#block-views-industry-news-home-page-block > * {
+	padding: 0.25em 1em;
+}
+
+#block-views-industry-news-home-page-block .views-field-created {
+	color: #9f6060;
+}
+
+#block-views-industry-news-home-page-block .views-field-title {
+	/*font-size: 1.125em;*/
+	font-weight: bold;
+}
+
+#block-views-industry-news-home-page-block .views-more-link {
+	font-size: 0.8em;
+}

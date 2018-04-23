@@ -1,0 +1,20 @@
+
+#block-block-85 iframe {
+	overflow: hidden;
+}
+
+#block-block-85 .warning {
+	background: #fccfcf;
+	border: 1px solid #c33;
+	border-radius: 0.25em;
+	margin: 1em;
+	padding: 1em;
+}
+
+@media (min-width:620px) {
+	#block-block-85 .alignl {
+		float: left;
+		margin: 0 1%;
+		width: 48%; 
+	}
+}

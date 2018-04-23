@@ -1,0 +1,33 @@
+
+ul.mgm {
+	text-align: center;
+	vertical-align: top;
+}
+
+ul.mgm li {
+	border-radius: 0.5em;
+	display: inline-block;
+	font-size: 0.8em;
+	margin: 0.25%;
+	max-width: 22%;
+	padding: 1em 1%;
+	text-align: center;
+	vertical-align: top;
+}
+
+ul.mgm li img {
+	border: none;
+	display: block;
+	margin: 0.125em auto;
+	padding: 0.25em 13%;
+	text-align: center;
+	width: 75%;
+}
+
+.mgm li:nth-child(even) {
+	background: transparent;
+}
+
+.mgm li:nth-child(odd) {
+	background: #fce1b6;
+}

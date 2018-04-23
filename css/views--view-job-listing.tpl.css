@@ -1,0 +1,132 @@
+
+html.anonymous-user .view-Job-listing .views-field-details {
+	display: none;
+}
+
+
+.view-Job-listing h2,
+.view-Job-listing h3,
+.view-Job-listing h4,
+.view-Job-listing h5,
+.view-Job-listing h6 {
+	font-family: "Source Sans Pro", sans-serif;
+	line-height: 1.2;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.view-Job-listing .form-item-transaction-id-op:before {
+	content: "Transaction ID";
+	font-size: 85%;
+	font-weight: bold;
+}
+	
+.view-Job-listing .views-field-details {
+	margin-top: 1em;
+}
+
+.view-Job-listing .views-field-details > .views-field {
+	display: block;
+	font-size: 0.75em;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: 0.25em 1em;
+}
+
+.view-Job-listing .views-field-field-jobappear small {
+	display: none;
+}
+
+.view-Job-listing .views-field-nothing {
+	margin-bottom: -1em;
+}
+
+.view-Job-listing .views-row,
+.view-Job-listing .views-row.views-row-last {
+	background: #fbe8c5;
+	border: 2px solid #e69e19;
+	border-radius: 0.5em;
+	box-shadow: 0.125em 0.125em 0.25em 0.125em #DDD /*inset*/;
+	margin: 2em 1em;
+	padding: 0.5em;
+	position: relative;
+}
+
+.view-Job-listing .view-filters .views-exposed-widget .description {
+	display: none;
+}
+
+
+
+.views-exposed-form .views-exposed-widget {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+body.admin-menu .view-filters,
+body.navbar-administration .view-filters {
+	position: relative;
+}
+
+body.admin-menu .views-widget-filter-secondary,
+body.navbar-administration .views-widget-filter-secondary {
+	padding: 0;
+	position: absolute;
+		right: 0%;
+		top: -4em;
+	z-index: 9999; /* it's over 9 thousand! */
+}
+
+body.admin-menu .views-widget-filter-secondary fieldset.collapsed,
+body.navbar-administration .views-widget-filter-secondary fieldset.collapsed {
+	margin: 0;
+	padding: 0.5em;
+}
+
+body.admin-menu .views-widget-filter-secondary legend,
+body.navbar-administration .views-widget-filter-secondary legend {
+	border: none;
+	font-size: 1em;
+	line-height: 1;
+	margin: 0px;
+	text-align: right;
+}
+
+body.admin-menu .views-widget-filter-secondary legend a:hover,
+body.navbar-administration .views-widget-filter-secondary legend a:hover {
+	background: none;
+}
+
+body:not(.admin-menu):not(.navbar-administration) .views-widget-filter-secondary {
+	display: none;
+}
+
+
+@media (max-width:479px) {
+	body.admin-menu .views-exposed-form
+	body.navbar-administration .views-exposed-form {
+		margin-top: 3em;
+	}
+}
+
+
+@media (min-width:600px) {
+	
+	.view-Job-listing h2,
+	.view-Job-listing h3,
+	.view-Job-listing h4,
+	.view-Job-listing h5,
+	.view-Job-listing h6 {
+		max-width: 75%;
+	}
+	
+	.view-Job-listing .views-field-details {
+		margin-top: 1em;
+		max-width: 25%;
+		position: absolute;
+			right: 0;
+			top: 0;
+	}
+	
+}

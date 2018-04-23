@@ -1,0 +1,13 @@
+
+.view-chapter-rosters .view-content {
+	text-align: center;
+}
+
+.view-chapter-rosters .view-content table {
+	margin: 0.5em auto;
+	text-align: left;
+}
+
+.view-chapter-rosters .view-content table h3 {
+	text-align: center;
+}

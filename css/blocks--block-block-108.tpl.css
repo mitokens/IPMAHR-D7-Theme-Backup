@@ -1,0 +1,53 @@
+
+#block-block-108 > h2 {
+	display: block;
+}
+
+#block-block-108 > h2:before {
+	/* content: '◈ '; */
+	content: '\0025C8\000020';
+	font-size: 1.5em;
+	max-width: 2rem;
+	padding-top: 0.25rem;
+	vertical-align: middle;
+}
+
+#block-block-108 > h2 > a {
+	max-width: calc(100% - 2rem);
+	vertical-align: middle;
+}
+
+#block-block-108 ul a.active {
+	background-size: auto 2px;
+	cursor: default;
+	color: inherit;
+	font-weight: bold;
+}
+
+#block-block-108 ul a.workflow2:not(:hover):not(:active):not(:focus),
+#block-block-108 ul a.workflow-2:not(:hover):not(:active):not(:focus) {
+	/*Staff Only*/
+	background-color: #FCC;
+}
+
+#block-block-108 ul a.workflow3:not(:hover):not(:active):not(:focus),
+#block-block-108 ul a.workflow-3:not(:hover):not(:active):not(:focus) {
+	/*Signers Only*/
+	background-color: #DEF;
+}
+
+#block-block-108 ul a.workflow4:not(:hover):not(:active):not(:focus),
+#block-block-108 ul a.workflow-4:not(:hover):not(:active):not(:focus) {
+	/*Members Only*/
+	background-color: #DFC;
+}
+
+#block-block-108 ul a.workflow6:not(:hover):not(:active):not(:focus),
+#block-block-108 ul a.workflow-6:not(:hover):not(:active):not(:focus) {
+	/*Public Access*/
+/* 	background-color: #FFF; */
+}
+
+#block-block-108 ul li {
+	margin: 0.5em 0;
+}

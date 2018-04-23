@@ -1,0 +1,57 @@
+
+#block-system-main {
+	background: #fef2dc;
+	border: 1px solid #aaa;
+	border-radius: 0.25em;
+	box-shadow: 1px 2px 4px 0 #ddd;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.125);
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+#block-system-main #user-login .item-list {
+	float: right;
+}
+
+#block-system-main #user-login .item-list ul {
+	list-style: none;
+}
+
+#block-system-main #user-login #edit-submit {
+	background: #059;
+	border: 0 solid #059;
+	border-radius: 0.125em;
+	box-shadow: 0.125em 0.125em 0.125em #CCC;
+	box-shadow: 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.25);
+	color: #FFF;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0.25em 0.125em;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+}
+
+	#block-system-main #user-login label,
+	#block-system-main #user-login input[type="text"],
+	#block-system-main #user-login input[type="password"] {
+		display: block;
+		min-width: 80%;
+	}
+
+@media (min-width:642px) {
+	#block-system-main {
+		float: left;
+		width: 48%;
+		margin: 1%;
+	}
+	#block-system-main .content {
+		padding: 1em;
+	}
+	#block-block-81 {
+		float: right;
+		width: 48%;
+		margin: 1%;
+	}
+}

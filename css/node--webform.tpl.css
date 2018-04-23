@@ -1,0 +1,195 @@
+
+form.webform-client-form > div {
+	display: table;
+	position: relative;
+}
+
+form.webform-client-form fieldset {
+	position: relative;
+	vertical-align: top;
+}
+
+form.webform-client-form fieldset > legend {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+form.webform-client-form fieldset > .fieldset-wrapper {
+	margin: 0.5em;
+}
+
+form.webform-client-form .form-actions {
+	clear: both;
+	text-align: center;
+}
+
+form.webform-client-form .webform-component:not(.webform-component-email):not(.webform-component-markup):not(.webform-component-number):not(.webform-component-textfield):not(.webform-component--spacer):not(.webform-container-inline) {
+	background: #EEE;
+	border: 1px solid #CCC;
+	border-radius: 0.25em;
+	margin-top: 1.5em;
+	padding: 0;
+}
+
+form.webform-client-form .webform-component:not(.webform-component-email):not(.webform-component-markup):not(.webform-component-number):not(.webform-component-textfield):not(.webform-component--spacer):not(.webform-container-inline) > label {
+	background: #F5DAA3;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom-right-radius: 0.25em;
+	box-shadow: 0.125em 0.125em 0.125em 0 rgba(0, 0, 0, 0.0625);
+	margin: 0;
+	margin-right: 1em;
+	margin-bottom: 0.25em;
+	padding: 0.25em;
+}
+
+form.webform-client-form .webform-component:not(.webform-component-email):not(.webform-component-markup):not(.webform-component-number):not(.webform-component-textfield):not(.webform-component--spacer):not(.webform-container-inline) > .description {
+	background: #EEE;
+	padding: 0.5em;
+}
+
+form.webform-client-form .form-item.webform-component:not(:hover):not(:focus):not(:active) > .description {
+	opacity: 0.9;
+}
+
+form.webform-client-form .webform-component-checkboxes > .form-checkboxes input,
+form.webform-client-form .webform-component-radios > .form-radios input,
+form.webform-client-form .webform-component-select .form-type-checkboxes > .form-checkboxes input,
+form.webform-client-form .webform-component-select .form-type-radios > .form-radios input {
+	vertical-align: middle;
+}
+
+form.webform-client-form .webform-component-checkboxes > .form-checkboxes input:checked + label,
+form.webform-client-form .webform-component-radios > .form-radios input:checked + label,
+form.webform-client-form .webform-component-select .form-type-checkboxes > .form-checkboxes input:checked + label,
+form.webform-client-form .webform-component-select .form-type-radios > .form-radios input:checked + label,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-checkboxes > .form-checkboxes input:checked + label,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-radios > .form-radios input:checked + label {
+	background: #FA2;
+	color: #444;
+}
+
+form.webform-client-form .webform-component-checkboxes > .form-checkboxes label,
+form.webform-client-form .webform-component-radios > .form-radios label,
+form.webform-client-form .webform-component-select .form-type-checkboxes > .form-checkboxes label,
+form.webform-client-form .webform-component-select .form-type-radios > .form-radios label,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-checkboxes > .form-checkboxes label,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-radios > .form-radios label {
+	background: #EC8;
+	border-radius: 0.5em;
+	font-weight: normal;
+	margin: 0.25em;
+	max-width: 90%;
+	padding: 0.5em;
+	vertical-align: middle;
+}
+
+form.webform-client-form .webform-component-checkboxes > .form-checkboxes .form-item,
+form.webform-client-form .webform-component-radios > .form-radios .form-item,
+form.webform-client-form .webform-component-select .form-type-checkboxes > .form-checkboxes .form-item,
+form.webform-client-form .webform-component-select .form-type-radios > .form-radios .form-item,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-checkboxes > .form-checkboxes .form-item,
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-radios > .form-radios .form-item {
+	clear: both;
+	margin: 0.25em;
+	padding: 0;
+	position: relative;
+	vertical-align: 50%;
+}
+
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-textfield {
+	margin: 0.5em;
+	margin-bottom: 1em;
+	margin-top: 0.25em;
+}
+
+form.webform-client-form .webform-component-select-or-other > .select-or-other > .form-type-textfield input {
+	width: 100%;
+}
+
+form.webform-client-form .form-item.webform-component-email > input,
+form.webform-client-form .form-item.webform-component-number > input,
+form.webform-client-form .form-item.webform-component-textfield > input,
+form.webform-client-form .form-item.webform-container-inline > input,
+form.webform-client-form .form-item.webform-container-inline > label + div,
+form.webform-client-form .form-item.webform-container-inline > .select-or-other label + div {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+}
+
+form.webform-client-form .form-item.webform-container-inline > .form-checkboxes,
+form.webform-client-form .form-item.webform-container-inline > .form-radios,
+form.webform-client-form .form-item.webform-container-inline > .select-or-other label + div {
+	border-left: 2px solid #f5daa3;
+	border-radius: 1em;
+	padding-left: 0.25em;
+}
+
+form.webform-client-form .form-item.webform-container-inline > .form-checkboxes .form-item,
+form.webform-client-form .form-item.webform-container-inline > .form-radios .form-item,
+form.webform-client-form .form-item.webform-container-inline > .select-or-other .form-item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+form.webform-client-form .form-item.webform-component-date.webform-container-inline .form-item {
+	max-width: 30%;
+}
+
+form.webform-client-form .form-item.webform-component-date.webform-container-inline .form-item select {
+	padding: 0.125em;
+	width: auto;
+}
+
+form.webform-client-form .form-item.webform-component-email > label,
+form.webform-client-form .form-item.webform-component-number > label,
+form.webform-client-form .form-item.webform-component-textfield > label,
+form.webform-client-form .form-item.webform-container-inline > label,
+form.webform-client-form .form-item.webform-container-inline > .select-or-other > div > label {
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	width: 30%;
+}
+
+form.webform-client-form .form-item.webform-container-inline > .select-or-other .form-type-textfield {
+	padding-right: 10%;
+	text-align: right;
+	width: 100%;
+}
+
+form.webform-client-form .form-item.webform-component-email > .description,
+form.webform-client-form .form-item.webform-component-number > .description,
+form.webform-client-form .form-item.webform-component-textfield > .description,
+form.webform-client-form .form-item.webform-container-inline > .description {
+	margin-left: 34%;
+	margin-right: 6%;
+	vertical-align: middle;
+}
+
+form.webform-client-form .form-item .description {
+	font-size: 0;
+}
+
+form.webform-client-form .form-item .description > code,
+form.webform-client-form .form-item .description > div,
+form.webform-client-form .form-item .description > ol,
+form.webform-client-form .form-item .description > p,
+form.webform-client-form .form-item .description > ul {
+	font-size: 0.875rem;
+	margin: 0.125em;
+	padding: 0.25em;
+}
+
+form.webform-client-form .webform-component-file .form-managed-file {
+	margin: 0;
+	padding: 0.5em;
+	text-align: center;
+}
+
+form.webform-client-form .webform-component--spacer {
+	opacity: 0;
+}

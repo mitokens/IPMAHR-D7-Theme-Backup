@@ -1,0 +1,30 @@
+
+#block-block-78 ul {
+	border-left: 0.125em solid #DDD;
+	list-style-image: url(/misc/menu-leaf.png);
+	list-style-position: outside;
+	margin: 0;
+	margin-left: 0.25em;
+	padding: 0.125em;
+	padding-left: 0.625em
+}
+
+#block-block-78 ul li {
+	margin: 0.5rem 0;
+	padding: 0.25rem;
+}
+
+#block-block-78 ul li > a {
+	border-radius: 0.25rem;
+	display: inline-block;
+	padding: 0.125rem 0.5rem;
+	vertical-align: top;
+}
+
+#block-block-78 ul li.content-count-0 > a:not(:hover):not(:focus):not(:active) {
+	background: #FCC;
+}
+
+#block-block-92 .expanded.active-trail ul {
+	/*display: none;*/
+}

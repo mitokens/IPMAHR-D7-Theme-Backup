@@ -1,0 +1,99 @@
+
+#block-views-webtasks-child-block ul {
+	list-style-type: none;
+	margin-top: 0.5em;
+}
+
+
+#block-views-webtasks-child-block li {
+	margin-bottom: 1em;
+	margin-left: 0;
+	padding-left: 1.25em;
+}
+
+#block-views-webtasks-child-block li a:before {
+	display: inline-block;
+	width: 1.25em;
+	margin-left: -1.25em;
+}
+
+#block-views-webtasks-child-block .progress-created a:before,
+#view-id-webtasks-page .progress-created:before {
+	content: "\0025CB";
+	content: "\0025EF";
+}
+
+#block-views-webtasks-child-block .progress-delegated a:before,
+#view-id-webtasks-page .progress-delegated:before {
+	content: "\002B24";
+	content: "\0025CF";
+}
+
+#block-views-webtasks-child-block .progress-ongoing a:before,
+#view-id-webtasks-page .progress-ongoing:before {
+	content: "\0022EF";
+}
+
+#block-views-webtasks-child-block .progress-deferred a:before,
+#view-id-webtasks-page .progress-deferred:before {
+	content: "\00274C";
+	content: "\002717";
+}
+
+#block-views-webtasks-child-block .progress-complete a:before,
+#view-id-webtasks-page .progress-complete:before {
+	content: "\002713";
+	content: "\002714";
+}
+
+#view-id-webtasks-page h4 {
+	display: block;
+}
+
+#view-id-webtasks-page ol {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#view-id-webtasks-page ol li:not(:only-child) {
+	padding-bottom: 1em;
+}
+
+#view-id-webtasks-page ol li:only-child {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#view-id-webtasks-page .progress-created,
+#view-id-webtasks-page .progress-delegated,
+#view-id-webtasks-page .progress-ongoing,
+#view-id-webtasks-page .progress-deferred,
+#view-id-webtasks-page .progress-complete {
+	text-transform: uppercase;
+}
+
+#view-id-webtasks-page .views-field-field-progress {
+	position: relative;
+}
+
+#view-id-webtasks-page .views-field-field-progress > .value {
+	display: none;
+}
+
+#view-id-webtasks-page .views-field-field-progress > div:before {
+	margin: auto;
+	margin-top: 40%;
+	position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+}
+
+#view-id-webtasks-page .views-table tr:not(:first-child) td {
+	border-top: 1px dotted #CCC;
+}

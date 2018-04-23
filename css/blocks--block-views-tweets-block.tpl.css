@@ -1,0 +1,15 @@
+
+.view-tweets {
+	overflow: hidden;
+}
+
+.view-tweets .views-field-created-time {
+	font-size: .8em;
+}
+
+.view-tweets .views-row {
+	border-bottom: 1px solid #DDD;
+	list-style: none;
+	margin: 0px;
+	padding: 1em .5em;
+}

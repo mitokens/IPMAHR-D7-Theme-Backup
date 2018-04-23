@@ -1,0 +1,82 @@
+
+.view-bulk-edit {
+	text-align: center;
+}
+
+.view-bulk-edit th {
+	text-align: center;
+}
+
+.view-bulk-edit .result-counter {
+	background: #faead1;
+	border: 1px solid #f2960d;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0em;
+	padding: .5em;
+	text-align: center;
+}
+
+.view-bulk-edit .result-counter.empty {
+	background: #faddd1;
+	border-color: #f2520d;
+}
+
+.view-bulk-edit .view-filters {
+	margin-bottom: 3em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.view-bulk-edit .views-exposed-widget:not(.views-submit-button) {
+	background: #E8E8E8;
+	border-radius: 0.5em;
+	height: 5rem;
+	margin: 0.5em 1%;
+	width: 45%;
+	padding: 0.5em 1%;
+}
+
+.view-bulk-edit .views-exposed-widget.views-submit-button,
+.view-bulk-edit .views-exposed-widget.views-widget-filter-promote,
+.view-bulk-edit .views-exposed-widget.views-widget-filter-status,
+.view-bulk-edit .views-exposed-widget.views-widget-filter-sticky,
+.view-bulk-edit .views-exposed-widget.views-widget-per-page,
+.view-bulk-edit .views-exposed-widget.views-widget-filter-comment {
+	box-sizing: border-box;
+	max-width: 15%;
+	min-width: 8em;
+}
+
+/* .view-bulk-edit .views-exposed-widget.views-widget-filter-created, */
+/* .view-bulk-edit .views-exposed-widget.views-widget-filter-sid, */
+.view-bulk-edit .views-exposed-widget.views-widget-filter-status {
+	clear: left;
+}
+
+.view-bulk-edit .views-field-created,
+.view-bulk-edit .views-field-changed {
+	min-width: 7em;
+}
+
+.view-bulk-edit #edit-select {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+	text-align: left;
+}
+
+
+@media (min-width: 876px) {
+	
+	.view-bulk-edit #edit-select {
+		float: left;
+		max-width: 35%;
+	}
+	
+	.view-bulk-edit .view-filters {
+		float: left;
+		max-width: 60%;
+	}
+	
+}

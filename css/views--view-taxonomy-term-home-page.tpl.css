@@ -1,0 +1,56 @@
+
+#content-wrapper {
+	background: #CCC;
+	border-radius: 0.5rem;
+	box-shadow: 0.125rem 0.125rem 0.25rem 0 #888;
+	margin: auto;
+	max-width: 682px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#view-id-taxonomy_term-home_page-header h2 {
+	border-color: #06A;
+	display: block;
+	margin-top: 1rem;
+}
+
+#view-id-taxonomy_term-home_page .view-taxonomy-term {
+/* 	padding: 0.25em 1em; */
+}
+
+#view-id-taxonomy_term-home_page .view-footer {
+	font-size: 0.8em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+#view-id-taxonomy_term-home_page .view-footer b {
+	margin: 0em;
+}
+
+#view-id-taxonomy_term-home_page .views-field-title {
+	border: 0;
+}
+
+#view-id-taxonomy_term-home_page .views-group:not(:first-child):before {
+	border-color: #06A;
+}
+
+
+@media (max-width:512px) {
+	
+	#view-id-taxonomy_term-home_page .views-field-term-node-tid {
+		display: none;
+	}
+	
+}
+
+
+@media (max-width:767px) {
+	
+	#block-views-taxonomy-term-news-feed-block .view-taxonomy-term .views-field-body {
+		display: none;
+	}
+	
+}

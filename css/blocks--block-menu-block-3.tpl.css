@@ -1,0 +1,78 @@
+
+html > body {
+	background-color: #EEE;
+}
+
+#block-menu-block-3 .menu.nav {
+	background: #CCC;
+	border-radius: 1em;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	color: #222;
+	position: relative;
+	text-shadow: 1px 0.125em 0.25em hsla(0, 0%, 0%, 0.25);
+}
+
+#block-menu-block-3 .menu.nav a:not(:hover):not(:active):not(:focus):not(.active-trail) {
+	color: #222;
+	text-shadow: 1px 0.125em 0.25em hsla(0, 0%, 0%, 0.25);
+}
+
+#block-menu-block-3 .menu.nav > li {
+	line-height: 1;
+	margin: 0;
+}
+
+#block-menu-menu-second-main {
+	display: none;
+}
+
+#logo a[href]:link img {
+	background-image: none;
+}
+
+#main-content {
+	margin: auto;
+	text-align: center;
+}
+
+#main-content > #content {
+	float: none;
+	margin: auto;
+	text-align: left;
+}
+
+#main-content > #content > #content-wrapper {
+	border: 0.25rem solid #06A;
+	border-radius: 1rem;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: 0 0.25em 0.5em 0 hsla(0,0%,0%,0.25) inset, 0 0.125em 0.125em 0 hsla(0,0%,0%,0.5);
+}
+
+#main-content > #content .nav-tabs {
+/* 	border-bottom-style: none; */
+}
+
+#main-menu {
+	margin-bottom: -0.25rem;
+	margin-bottom: 0;
+}
+
+#main-menu .container .navbar {
+	margin-bottom: -1px;
+}
+
+#main-menu .container .navbar-inner {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+
+@media (min-width: 768px) {
+	
+	#main-menu .menu.nav > li > a {
+		max-width: 15rem;
+	}
+	
+}

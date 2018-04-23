@@ -1,0 +1,30 @@
+
+.field-name-field-file {
+	border-top: 1px solid #CCC;
+	margin-top: .5em;
+	padding-top: .5em;
+}
+
+.field-name-field-file .field-item:not(:first-child) {
+	margin-top: .5em;
+}
+
+.field-name-field-video {
+	float: right;
+	padding-left: 4%;
+	width: 45%;
+}
+
+.field-name-field-video object,
+.field-name-field-video video,
+.field-name-field-video .flowplayer {
+	height: auto !important;
+	margin: .5em 0em;
+	width: 100% !important;
+}
+
+.field-name-field-video + .field-name-field-file {
+	float: left;
+	padding-right: 4%;
+	width: 45%;
+}

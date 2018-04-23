@@ -1,0 +1,35 @@
+
+.node-image .field-name-created {
+	margin-left: 1em;
+}
+
+.node-image .field-name-field-image {
+	margin-top: 1em;
+	text-align: center;
+}
+
+.node-image .flatline {
+	font-size: 1.125em;
+}
+
+.node-image .flatline .field-label {
+	background: #F5DAA3;
+	border: 1px solid #CCC;
+	border-corner-shape: bevel;
+	border-bottom-right-radius: 2em 1em;
+	border-top-right-radius: 2em 1em;
+	box-shadow: 0.0625em 0 0.0625em 0 rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	margin-right: 0.5em;
+	padding: 0.125em;
+	padding-right: 0.75em;
+}
+
+.node-image #mainfile {
+	padding: 0.125rem;
+}
+
+.node-image #mainfile div {
+	margin: 0;
+	padding: 0;
+}

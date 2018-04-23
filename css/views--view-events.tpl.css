@@ -1,0 +1,45 @@
+
+#block-system-main .view-events .views-row {
+	margin-bottom: 2em;
+}
+
+#block-views-events-block-1.span4 .view-cntent {
+	overflow: hidden;
+	position: relative;
+}
+
+#block-views-events-block-1 h5 {
+	margin-top: 0.125em;
+}
+
+.view-events  .date-display-range,
+.view-events  .date-display-single {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.view-events  .date-display-range > span {
+	display: inline-block;
+}
+
+.view-events  .date-display-range > span:first-child:after {
+	content: "\2002";
+}
+
+.view-events  .date-display-range > span:not(:first-child):before {
+	content: "\2002";
+}
+
+.view-events  .date-display-range:before,
+.view-events  .date-display-single:before {
+	content: "\2022\2002";
+}
+
+@media (max-width: 767px) {
+	
+	#block-views-events-block-1 .views-row .views-field-body {
+		display: none;
+	}
+	
+}

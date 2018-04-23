@@ -1,0 +1,101 @@
+
+#block-views-taxonomy-term-industry-news .view-content {
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .view-footer {
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-body {
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-datetimes {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-datetimes > .views-fieldset {
+	background: none;
+	border: none;
+	box-shadow: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	transform: none;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-datetimes > .views-fieldset > span {
+	font-size: 75%;
+	transform: none;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-datetimes > .views-fieldset > span:not(:first-child) {
+	margin-left: 0.5em;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-field-source-link {
+	display: block;
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .views-field-title {
+	text-align: center;
+}
+
+#block-views-taxonomy-term-industry-news .views-row.workflow6 {
+	background-color: #FFF;
+}
+
+
+@media (max-width: 767px) {
+	
+	#block-views-taxonomy-term-industry-news .view-content .views-field-title {
+		margin-top: 0.5rem;
+	}
+	
+	#block-views-taxonomy-term-industry-news .view-content .views-field-body {
+		display: block;
+		text-align: center;
+	}
+	
+	#block-views-taxonomy-term-industry-news .views-field-datetimes {
+		background: none;
+		box-shadow: none;
+	}
+	
+	#block-views-taxonomy-term-industry-news .views-row {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0.5rem 1%;
+	}
+	
+	#block-views-taxonomy-term-industry-news .views-row .views-field-datetimes span + span:before {
+		content: "";
+		display: none;
+	}
+	
+}
+
+
+@media (min-width: 480px) AND (max-width: 640px) {
+	
+	#block-views-taxonomy-term-industry-news .views-row {
+		max-width: 42%;
+	}
+	
+}
+
+
+@media (min-width: 640px) AND (max-width: 767px) {
+	
+	#block-views-taxonomy-term-industry-news .views-row {
+		max-width: 27%;
+	}
+	
+}
+
+

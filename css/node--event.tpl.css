@@ -1,0 +1,30 @@
+
+.node-event .field-name-created {
+	margin-left: 1em;
+}
+
+.node-event .flatline {
+	font-size: 1.125em;
+}
+
+.node-event .flatline .field-label {
+	background: #F5DAA3;
+	border: 1px solid #CCC;
+	border-corner-shape: bevel;
+	border-bottom-right-radius: 2em 1em;
+	border-top-right-radius: 2em 1em;
+	box-shadow: 0.0625em 0 0.0625em 0 rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	margin-right: 0.5em;
+	padding: 0.125em;
+	padding-right: 0.75em;
+}
+
+.node-event .field-name-field-hyperlinks .field-item {
+	display: inline-block;
+	margin: 1em 0.125em;
+}
+
+.node-event .field-name-field-location p {
+	margin: 0 0.5em;
+}

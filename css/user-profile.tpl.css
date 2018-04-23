@@ -1,0 +1,56 @@
+
+html:not(.staff-member) .field-name-profile-link,
+#block-system-main > .content > .user-profile .field-name-profile-link {
+	display: none;
+}
+
+.user-profile .field-name-field-image {
+	display: inline-block;
+	float: right;
+	margin-bottom: 0.5rem;
+	margin-left: 0.4%;
+	margin-right: 0.4%;
+	overflow: hidden;
+	padding-left: 0.1%;
+	padding-right: 0.1%;
+	text-align: center;
+	width: 100%;
+}
+
+.user-profile .field-name-field-image img {
+	border-radius: 1em;
+	max-height: 15em;
+	width: auto;
+}
+
+#page-title {
+/* 	display: none; */
+}
+
+#block-views-uc-orders-user-block-1 .views-field-order-id .uc-order-action {
+	display: none;
+}
+
+
+@media (min-width: 768px) {
+	
+	.user-profile .field-name-field-image{
+		width: 50%;
+	}
+	
+	#block-views-user-content-block,
+	#block-views-uc-orders-user-block-1 {
+		display: inline-block;
+		margin: 2em 1%;
+		overflow: hidden;
+		vertical-align: top;
+		width: 47%;
+	}
+	
+	#block-views-user-content-block h2,
+	#block-views-uc-orders-user-block-1 h2 {
+		display: block;
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,54 @@
+
+body {
+	padding-top: 0 !important;
+}
+
+#block-block-60#block-block-60 {
+	margin-top: 0;
+}
+
+#block-block-60 .landing > .menu.nav > li > a {
+	display: none;
+}
+
+#block-block-103 {
+	border-radius: 0.5rem;
+}
+
+#block-block-103 a {
+	border-radius: 0.5rem;
+	padding: 0;
+}
+
+#block-block-103 a:hover img,
+#block-block-103 a:focus img {
+	box-shadow: 0 0 0 0.125rem #FA2 inset;
+}
+
+#block-block-103 a:active img {
+	box-shadow: 0 0 0 0.125rem #059 inset;
+}
+
+#block-block-103 img {
+	border-radius: 1rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#block-menu-menu-second-main .content .menu.nav {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#header #logo {
+	margin: 0;
+}
+
+#header #header-content #block-block-25 {
+	bottom: 0.25rem;
+	right: 0.25rem;
+}
+
+#block-system-main-menu {
+	display: none;
+}

@@ -1,0 +1,77 @@
+
+.field-name-field-author,
+.field-name-field-state-region,
+.field-name-field-subtype {
+	display: inline-block;
+	padding: 0em;
+	padding-right: .33em;
+}
+
+.field-name-field-author .field-item:after {
+	content: ", ";
+}
+
+.field-name-field-author .field-item:before {
+	content: "by ";
+}
+
+.field-name-field-subtype .field-item:before {
+	content: "A ";
+}
+
+.field-name-field-file {
+	border-top: 1px solid #CCC;
+	margin-top: .5em;
+	padding-top: .5em;
+}
+
+.field-name-field-file .field-item:not(:first-child) {
+	margin-top: .5em;
+}
+
+.field-name-field-video object,
+.field-name-field-video div:not(.flowplayer) > video,
+.field-name-field-video .flowplayer {
+	background-color: #CCC;
+	height: auto !important;
+	margin: .5em 0em;
+	padding: 0px;
+	width: 80% !important;
+}
+
+.field-name-field-video .flowplayer.is-mouseover {
+	background-color: #444;
+}
+
+
+@media(min-width:768px) {
+	.field-name-field-description + .field-name-field-video {
+		float: right;
+		padding-left: 4%;
+		width: 45%;
+	}
+	
+	.field-name-field-video object,
+	.field-name-field-video div:not(.flowplayer) > video,
+	.field-name-field-video .flowplayer {
+		border-radius: .25em;
+		margin-left: 12.5%;
+		width: 75% !important;
+	}
+
+	.field-name-field-video + .field-name-field-file {
+		float: left;
+		padding-right: 4%;
+		width: 45%;
+	}
+}
+
+
+@media(max-width:480px) {
+	.field-name-field-video object,
+	.field-name-field-video div:not(.flowplayer) > video,
+	.field-name-field-video .flowplayer {
+		width: 100% !important;
+	}
+}
+

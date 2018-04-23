@@ -1,0 +1,104 @@
+
+#content-wrapper {
+	border: 0.25em solid #269;
+	border-bottom-left-radius: .25em;
+	border-bottom-right-radius: .25em;
+	box-shadow: .125em .125em .125em 0em rgba(0,0,0,.25);
+}
+
+#content-wrapper > #block-system-main {
+	padding: .5em;
+}
+
+#block-block-60 {
+	background: #269;
+	border: 3px solid #269;
+	border-bottom: none;
+	border-radius: .25em;
+	box-shadow: .125em .125em .125em 0em rgba(0,0,0,.25);
+	margin-bottom: -0.25em;
+	margin-top: 2em;
+}
+
+#block-block-60 a:link,
+#block-block-60 a:visited {
+	color: #FFF;
+	margin: .5em .25em;
+	padding: .25em .75em;
+}
+
+#block-block-60 a.active-trail {
+	background: #BCD;
+	box-shadow: .0625em .0625em .125em .05em rgba(0,0,0,.25) inset,
+		.125em .125em .125em 0em rgba(0,0,0,.125);
+	color: #888;
+	font-weight: bold;
+}
+
+#block-block-60 a.active-trail.active {
+	background: #FFF;
+	color: #444;
+}
+
+#block-block-60 a:focus,
+#block-block-60 a:hover {
+	background: #37C;
+	color: #F29A0D;
+}
+
+#block-block-60 a:active {
+	background: #D7EAEA;
+	border-radius: .25em;
+	color: #F29A0D;
+}
+
+#block-block-60 ul ul ul ul {
+	display: none;
+}
+
+#block-block-60 .landing {
+	position: relative;
+}
+
+#block-block-60 .landing .menu.nav {
+	margin: 0em;
+	padding: 0em;
+}
+
+#block-block-60 .landing > .menu.nav li	 {
+	display: inline-block;
+	margin: 0em;
+	padding: 0em;
+}
+
+#block-block-60 .landing > .menu.nav > li > a {
+	border-radius: 0em;
+	border-top-left-radius: .25em;
+	border-top-right-radius: .25em;
+	position: absolute;
+		left: .5em;
+		top: -2em;
+	font-size: 1.4em;
+}
+
+#block-block-60 .landing > .menu.nav > li > a:not(.active):not(:focus):not(:hover) {
+	background: #269;
+	box-shadow: .0625em 0em .0625em 0em rgba(0,0,0,.25);
+	color: #FFF;
+}
+
+#block-block-60 .landing > .menu.nav > li > .menu.nav > li.active-trail > ul {
+	background: #368;
+	box-shadow: .0625em .125em .25em .05em rgba(0,0,0,.25) inset,
+		0em .125em .125em 0em rgba(0,0,0,.25);
+	margin: 0;
+	padding: 0 0.25em;
+	position: absolute;
+		top: 100%;
+		left: 0;
+	width: 100%;
+}
+
+#content-top {
+	margin-bottom: -0.5em;
+}

@@ -1,0 +1,57 @@
+.landing > .menu.nav > li > a {
+	display: none;
+}
+
+#block-block-60 {
+	margin: 0 !important;
+}
+
+#block-block-64 > .content .banner {
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 0.25em;
+	display: block;
+}
+
+#header {
+	display: block;
+	position: relative;
+}
+
+#header * {
+	text-align: right;
+}
+
+#header > .container > .row > div > *:not(#logo) {
+	display: none;
+}
+
+#header #logo {
+	margin: 1px !important;
+}
+
+#main-menu {
+	display: none;
+}
+
+@media (min-width:768px) {
+	
+	#header #logo {
+		background-images: url("/sites/all/themes/ofw_ipmahr/images/main-bg-50.png");
+		border-radius: 0.125em;
+		border-bottom-left-radius: 0.5em;
+/* 		position: absolute; */
+/* 			right: 30px; */
+/* 			top: 2px; */
+		z-index: 9999;/*over nine thousand*/
+	}
+	
+	#block-block-64 > .contextual-links-wrapper {
+		right: 2px;
+	}
+	
+	#header #logo > a {
+		padding: 0.5em;
+	}
+	
+}
